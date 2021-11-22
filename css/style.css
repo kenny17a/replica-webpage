@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/*  
+body{
+    background: rosybrown;
+}
+*/
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #3c4AEd;
+}
+#logo{
+    float: left;
+    width: 200px;
+    height: 80px;
+}
+
+.logoclass{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#navbox{
+    margin-left: 400px;
+    float: right;
+    width: 800px;
+    height: 80px;
+}
+#navbox ul{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif; 
+}
+#navbox li a {
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+.spec{
+    width: 100px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    margin-top: 10px !important; 
+    border: 2px solid white;
+}
+.spec:hover{
+    background: white;
+    border-radius: 100px;
+    margin-top: 10px;
+    border: 2px solid white;
+    color: #3c4AEd;
+}
+#banner{
+    background:  #3c4AEd;
+    margin-top: 0;
+    width: 100%;
+    height: 600px;
+
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bannerbox1{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.bannerbox1 h1{
+    font-size: 60px;
+    color: white;
+    padding: 40px;
+}
+.p{
+    color: white;
+    font-size: 20px;
+    margin-left: 50px;
+
+}
+
+.images2{
+    float: left;
+    width: 600px;
+    
+}
+.contain{
+    width: 100%;
+    height: 300px;
+}
+.containal{
+    width: 100%;
+    height: 150px;
+}
+
+.conb p{
+    font-size: 30px !important;
+}
+
+#grey {
+    color: gray;
+}
+
+.cona{
+    float: right;
+    width: 100px;
+    padding: 10px 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 1px solid white;
+    background: blue;
+    color: white;
+
+}
+.cona h1 {
+    font-size: 20px;
+}
+.cona:hover{
+    background: rgba(0, 0, 255, 0.37);
+    border-radius: 100px;
+    margin-top: 20px;
+    border: 1px solid;
+    color: white;
+}
+.conb{
+    float: left;
+    width: 50%;
+    height: 120px;
+    margin-left: 70px;
+    font-size: bold;
+}
+
+.conb p {
+    font-size: 15px;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+}
+.pic1{
+    margin-left: 150px;
+    padding-top: 40px;
+    width: 50px;
+    height: 50px;
+
+}
+.pic2{
+    margin-left: 150px;
+    padding-top: 40px;
+    width: 50px;
+    height: 50px;
+
+}
+.pic3{
+    margin-left: 150px;
+    padding-top: 40px;
+    width: 50px;
+    height: 50px;
+}
+    
+.a{
+    float: right;
+    width: 33%;
+    height: 200px;
+}
+.b{
+    float: left;
+    width: 31%;
+    height: 200px;
+    margin-left: 70px !important;
+}
+.c{
+    float: left;
+    width: 30%;
+    height: 200px;
+}
+
+.banner2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.bar1{
+    float: left;
+    width: 60%;
+    margin-left: 70px;
+    font-size: larger;
+    height: 500px;
+}
+.bar1 h3{
+     border-radius: 100px;
+     margin-top: 10px;
+     border: 1px solid;
+     color: white;
+     width: 150px;
+    }
+.bar2{
+    float: left;
+    width: 70%;
+    height: 500px;
+}
+.agency{
+    width: 700px;
+    height: 650px;
+}
+.banna{
+    width: 100%;
+    height: 600px;
+}
+.bana1{
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-left: 70px !important;
+    padding-top: 150px;
+}
+.bana2{
+    float: left;
+    width: 30%;
+    height: 400px;
+    padding-top: 150px;
+}
+.bana3{
+    float: left;
+    width: 30%;
+    height: 400px;
+    padding-top: 150px;
+}
+
+
+.one {
+    width: 100px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    color: white;
+    font-size: 30px;
+    background: blue;
+}
+.two {
+    width: 100px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    color: white;
+    font-size: 30px;
+    background: blue;
+}
+.three {
+    width: 100px;
+    padding: 20px 30px;
+    border-radius: 100px;
+    color: white;
+    font-size: 30px;
+    background: blue;
+}
+.banaa{
+    margin-top: -20px;
+    width: 100%;
+    height: 300px;
+
+}
+.banaa1{
+    float: left;
+    width: 50%;
+    height: 250px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.banaa2{
+    float: left;
+    width: 40%;
+    height: 200px;
+    padding-top: 60px;
+}
+.banaa2 p{
+    width: 80px;
+    padding: 10px 50px;
+    border-radius: 100px;
+    margin-top: 20px;
+    color: white;
+    margin-left: 150px;
+    background: blue;
+
+}
+.pin{
+    width: 100%;
+    height: 500px;
+}
+.pin1{float: left;
+    width: 30%;
+    height: 400px;
+    margin-left: 70px;
+}
+.pin2{
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+.pin3{
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+.ban{
+    width: 100%;
+    height: 700px;
+}
+.ban1{
+    float: left;
+    width: 50%;
+    height: 400px;
+    margin-left: 70px;
+}
+.ban2{
+    float: left;
+    width: 40%;
+    height: 400px;
+    margin-left: 40px;
+    padding-top: 150px;
+}
+.ban2 p{
+    font-size: 25px;
+}
+.bar{
+    width: 100%;
+    height: 500px;
+}
+.bar1{
+    float: left;
+    width: 30%;
+    height: 400px;
+
+}
+.bar1{
+    font-size: 20px;
+}
+.bar2{
+    float: left;
+    width: 33%;
+    height: 400px;
+}
+.bar3{
+    float: left;
+    width: 31%;
+    height: 400px;
+
+}
+.ba{
+    margin-top: -25px;
+    width: 100%;
+    height: 300px;
+}
+
+.ba h2{
+    font-size: 30px;
+    margin-left: 70px;
+}
+.ba1{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.ba2{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.ba3{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.ba4{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.ba5{
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+.f{
+    width: 100%;
+    height: 50px;
+    margin-left: 70px!important;
+}
+.g{
+    width: 100%;
+    height: 50px;
+}
+.h{
+    width: 100%;
+    height: 50px;
+}
+.i{
+    width: 100%;
+    height: 50px;
+}
+.j{
+    width: 100%;
+    height: 50px;
+}
+.baa{
+    width: 100%;
+    height: 300px;
+    background: blue;
+}
+#cont{
+    width: 1200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cont h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+#cont h4{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+#cont h3{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    margin-left: 600px;
+}
+#cont h3:hover{
+    background: white;
+    border-radius: 30px;
+    margin-top: 20px;
+    border: 1px solid;
+    color:blue;
+}
